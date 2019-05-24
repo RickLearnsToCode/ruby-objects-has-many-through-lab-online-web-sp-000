@@ -1,4 +1,4 @@
-class Doctor 
+class Doctor
   @@all = []
 
   attr_reader :name
@@ -8,11 +8,11 @@ class Doctor
     @@all << self
   end
 
-  def all 
-    @@all  
+  def all
+    @@all
   end
 
-  
+
 
 
 
