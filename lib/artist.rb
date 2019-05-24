@@ -20,13 +20,12 @@ class Artist
     @songs << song
   end
 
-  def songs 
+  def songs
     @songs
   end
-  
+
 
 
 
 
 end
-
