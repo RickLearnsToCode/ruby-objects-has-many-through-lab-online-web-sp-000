@@ -5,6 +5,7 @@ attr_accessor :name
 
 def initialize(name)
   @name = name
+  @@all << name unless @@all.include?(name)
 end
 
 def songs
