@@ -15,6 +15,12 @@ def artists
   Artist.all.select {|artist| artist.genre == self}
 end
 
+def self.all 
+  @@all  
+end
+
+
+
 
 
 
