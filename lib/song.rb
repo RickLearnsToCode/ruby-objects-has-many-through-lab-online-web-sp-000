@@ -9,8 +9,8 @@ def initialize(name,artist,genre)
   @@all << self
 end
 
-def all 
-  @@all 
+def all
+  @@all
 end
 
 
