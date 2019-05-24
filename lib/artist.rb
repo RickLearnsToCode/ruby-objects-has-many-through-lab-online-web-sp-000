@@ -23,8 +23,8 @@ class Artist
     Song.all.select {|song| song.artist == self}
   end
 
-  def genre
-    Genre.all.select {|genre| genre.artists.include?(self)}
+  def genres
+    songs.map {|song| song.genre}
   end
 
 
