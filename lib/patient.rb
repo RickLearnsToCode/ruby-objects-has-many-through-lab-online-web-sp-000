@@ -1,4 +1,4 @@
-class Patient 
+class Patient
   @@all =[]
   attr_accessor :name
 
@@ -6,7 +6,7 @@ class Patient
     @name = name
     @@all << self
   end
-  
+
 
 
 
